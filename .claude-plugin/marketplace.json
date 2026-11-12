@@ -15,18 +15,18 @@
       "category": "development",
       "source": {
         "source": "git-subdir",
-        "url": "builtform/launchpad",
+        "url": "FrameworkedApp/launchpad",
         "path": "plugins/launchpad",
         "ref": "stable"
       },
-      "homepage": "https://github.com/builtform/launchpad"
+      "homepage": "https://github.com/FrameworkedApp/launchpad"
     },
     {
       "name": "growth-toolkit",
       "description": "Strategic growth workflows wired in as agents and skills. One slash command produces what you need at each stage of growing your company — customer discovery, positioning, sales pitch, offer, lead gen, pricing, copy, content, funnel, acquisition, retention, launch — from discovery through exit. Paid plugin — request access via the GitHub issue template at builtform/marketplace.",
       "category": "marketing",
-      "source": { "source": "github", "repo": "builtform/growth-toolkit" },
-      "homepage": "https://github.com/builtform/marketplace#growth-toolkit-paid"
+      "source": { "source": "github", "repo": "FrameworkedApp/growth-toolkit" },
+      "homepage": "https://github.com/FrameworkedApp/marketplace#growth-toolkit-paid"
     }
   ]
 }
