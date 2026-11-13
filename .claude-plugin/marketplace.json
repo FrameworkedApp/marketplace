@@ -1,12 +1,11 @@
 {
-  "name": "builtform",
+  "name": "frameworked",
   "owner": {
-    "name": "BuiltForm",
-    "email": "support@builtform.ai",
-    "url": "https://github.com/builtform"
+    "name": "Frameworked LLC",
+    "url": "https://github.com/FrameworkedApp"
   },
   "metadata": {
-    "description": "BuiltForm marketplace — independent plugins under the BuiltForm umbrella. LaunchPad (free, public) and Growth Toolkit (paid, private)."
+    "description": "Frameworked marketplace: independent plugins under the Frameworked umbrella. LaunchPad (free, public) and Growth Toolkit (paid, private)."
   },
   "plugins": [
     {
@@ -23,7 +22,7 @@
     },
     {
       "name": "growth-toolkit",
-      "description": "Strategic growth workflows wired in as agents and skills. One slash command produces what you need at each stage of growing your company — customer discovery, positioning, sales pitch, offer, lead gen, pricing, copy, content, funnel, acquisition, retention, launch — from discovery through exit. Paid plugin — request access via the GitHub issue template at builtform/marketplace.",
+      "description": "Strategic growth workflows wired in as agents and skills. One slash command produces what you need at each stage of growing your company (customer discovery, positioning, sales pitch, offer, lead gen, pricing, copy, content, funnel, acquisition, retention, launch), from discovery through exit. Paid plugin: request access via the GitHub issue template at FrameworkedApp/marketplace.",
       "category": "marketing",
       "source": { "source": "github", "repo": "FrameworkedApp/growth-toolkit" },
       "homepage": "https://github.com/FrameworkedApp/marketplace#growth-toolkit-paid"
