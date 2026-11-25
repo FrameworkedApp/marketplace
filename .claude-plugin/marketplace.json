@@ -5,7 +5,7 @@
     "url": "https://github.com/FrameworkedApp"
   },
   "metadata": {
-    "description": "Frameworked marketplace: independent plugins under the Frameworked umbrella. LaunchPad (free, public) and Growth Toolkit (paid, private)."
+    "description": "Frameworked marketplace: independent plugins under the Frameworked umbrella. LaunchPad (free, public), Growth Toolkit and Studio Toolkit (paid, private)."
   },
   "plugins": [
     {
@@ -26,6 +26,13 @@
       "category": "marketing",
       "source": { "source": "github", "repo": "FrameworkedApp/growth-toolkit" },
       "homepage": "https://github.com/FrameworkedApp/marketplace#growth-toolkit-paid"
+    },
+    {
+      "name": "studio-toolkit",
+      "description": "Asset-making tools for founders and creators, as Claude Code commands backed by skills and agents. Released today: the Image tool (/studio-image), which generates and edits images with the Nano Banana engine (Google Gemini image models), with cheap drafts, a high-quality final, chat refinement and search grounding. Charts and infographics, logo and identity, design system and product demo tools follow. Paid plugin: request access via a GitHub issue at FrameworkedApp/marketplace.",
+      "category": "design",
+      "source": { "source": "github", "repo": "FrameworkedApp/studio-toolkit" },
+      "homepage": "https://github.com/FrameworkedApp/marketplace#studio-toolkit-paid"
     }
   ]
 }

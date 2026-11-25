@@ -10,6 +10,7 @@ The marketplace for Frameworked plugins, for Claude Code and Codex.
 /plugin marketplace add github:FrameworkedApp/marketplace
 /plugin install launchpad@frameworked        # free, public
 /plugin install growth-toolkit@frameworked   # paid, private (see the access section below)
+/plugin install studio-toolkit@frameworked   # paid, private (see the access section below)
 ```
 
 Restart Claude Code after install.
@@ -21,7 +22,7 @@ codex plugin marketplace add FrameworkedApp/marketplace
 codex plugin add launchpad@frameworked
 ```
 
-Start a new Codex session, then run `$launchpad:lp help`. LaunchPad is the plugin available on Codex today; Growth Toolkit is Claude Code only. Details, the verified command list, and the differences from Claude Code are in [LaunchPad: How It Works, Codex](https://github.com/FrameworkedApp/launchpad/blob/main/docs/guides/HOW_IT_WORKS.md#codex).
+Start a new Codex session, then run `$launchpad:lp help`. LaunchPad is the plugin available on Codex today; Growth Toolkit and Studio Toolkit are Claude Code only. Details, the verified command list, and the differences from Claude Code are in [LaunchPad: How It Works, Codex](https://github.com/FrameworkedApp/launchpad/blob/main/docs/guides/HOW_IT_WORKS.md#codex).
 
 To update on Codex, run `codex plugin marketplace upgrade frameworked`, then `codex plugin add launchpad@frameworked` again.
 
@@ -83,6 +84,20 @@ Everything is already wired as agents and skills. You don't read about the metho
 
 To request access, open an issue using the [Request Growth Toolkit access](https://github.com/FrameworkedApp/marketplace/issues/new?template=request-access.yml) template. Once approved, your GitHub account is granted read access to the private repo, and the install command above succeeds. Until then, the install fails on the GitHub auth check, and no plugin files leave the private repo.
 
+### Studio Toolkit (paid)
+
+The Frameworked toolbox of asset-making tools, wired in as Claude Code commands backed by skills and agents. The Growth, Content, Marketing and Scale toolkits decide; Studio Toolkit makes the assets those decisions need, and every tool also runs on its own. Outputs follow your brand.
+
+**Released:**
+
+- **Image** (`/studio-image`): generate and edit images with the Nano Banana engine (Google Gemini image models). Cheap drafts, one high-quality final, chat refinement and Google Search grounding. Conversational by default; `--auto` drafts from a brief and checks the results; `--review` checks an existing image against its brief.
+
+**Next:** charts and infographics, then logo and identity, design system and product demo. Video, audio and deck follow as needs arise.
+
+**Requirements:** Python 3 with the packages and API keys each tool needs. Run `/studio-setup-check` after install; it lists anything missing. The Image tool needs a `GEMINI_API_KEY` in your environment.
+
+**Access:** This is a paid plugin. The source lives in the private `FrameworkedApp/studio-toolkit` repository. To request access, open an issue in [FrameworkedApp/marketplace](https://github.com/FrameworkedApp/marketplace/issues) naming Studio Toolkit and your GitHub username. Until access is granted, the install fails on the GitHub auth check.
+
 ## Questions and support
 
 Open an issue in [FrameworkedApp/marketplace](https://github.com/FrameworkedApp/marketplace/issues). We answer there.
@@ -93,6 +108,7 @@ This repo holds the marketplace listing only; no plugin code lives here. Each pl
 
 - LaunchPad → [github.com/FrameworkedApp/launchpad](https://github.com/FrameworkedApp/launchpad) (public)
 - Growth Toolkit → `FrameworkedApp/growth-toolkit` (private, access on request)
+- Studio Toolkit → `FrameworkedApp/studio-toolkit` (private, access on request)
 
 ## License
 
